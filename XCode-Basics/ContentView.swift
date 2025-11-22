@@ -26,14 +26,14 @@ struct ContentView: View {
                     .fontWeight(.thin)
                     .multilineTextAlignment(.center)
                 Text("First App :D")
-                    .fontWeight(.bold)
+                    .fontWeight(.semibold)
                     .padding()
                     .background(Color.indigo)
                     .foregroundStyle(.white)
                 Image(.barcelona)
                     .resizable()
                     .scaledToFit()
-                    
+                Text("Hello World!")
             }
         }
     }
